@@ -8,12 +8,8 @@
 <body>
 <form action="traitement.php" method="post">
     <div>   
-        <label for="nom">Nom</label>
-        <input name="nom" id="nom" type="text"/> 
-    </div>
-    <div>   
-    <label for="prenom">Prenom</label>
-    <input name="prenom" id="prenom" type="text"/> 
+        <label for="name">Nom</label>
+        <input name="name" id="name" type="text"/> 
     </div>
     <div>   
         <label for="email">Email</label>
