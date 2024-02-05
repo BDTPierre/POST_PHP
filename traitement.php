@@ -10,7 +10,6 @@ $mail = $_POST["email"];
 $name = $_POST["name"];
 $password = $_POST["password"];
 
-// Code de Mohammed
 $link = mysqli_connect("localhost", "root", "root", "entrainement");
 //JE VERIFIE MA CONNECTION A MA BDD(base de donné)
 if (mysqli_connect_errno()) {
