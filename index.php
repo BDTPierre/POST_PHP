@@ -21,5 +21,22 @@
     </div>
     <button type="submit">Envoyez</button>
 </form>
+
+<h1>Methode PDO</h1>
+
+<form action="index2.php" method="post">
+    <div>   
+        <label for="name">Nom</label>
+        <input name="nom" id="nom" type="text"/> 
+    </div>
+    <div>   
+        <label for="email">Email</label>
+        <input name="mail" id="mail" type="text"/> 
+    </div>
+    <button type="submit">Envoyez</button>
+</form>
+
+<a href="modifier.php">modifier</a>
+<a href="supprimer.php">supprimer</a>
 </body>
 </html>

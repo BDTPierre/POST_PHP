@@ -18,3 +18,4 @@ if (mysqli_connect_errno()) {
 
 $sqli = "INSERT INTO contact (`name`, `email`, `password`) VALUES ('$name', '$mail', '$password')";
 mysqli_query($link,$sqli);
+
